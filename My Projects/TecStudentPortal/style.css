@@ -1,0 +1,178 @@
+body{font-family: 'Tenali Ramakrishna', sans-serif;font-size: 20px;}
+  	#tec{margin-top: -18px;}
+  	@media only screen and (min-width: 991px)
+    {
+
+	    .brand{width: 90px;height: 90px;}
+	     #address{font-size: 20px;margin-top: -10px;}
+	      #tec{font-size: 70px;}
+	}
+
+	 @media only screen and (max-width: 990px)
+      {
+      	.brand{width: 90px;height: 90px;}
+		#address{font-size: 18px;}
+		 #tec{font-size: 50px;}
+      }
+      @media only screen and (max-width: 769px)
+      { 
+      	#adress{font-size: 14px;}
+		.brand{width: 70px;height: 70px;} 
+		#tec{font-size: 37px;margin-bottom: 0px;line-height: 40px;}
+		}
+	@media only screen and (max-width: 550px)
+	{
+	    .brand{width: 50px;height: 50px;}
+	    #tec{font-size: 25px;line-height: 30px;}
+	    #address{font-size: 11px;line-height: 14px;}
+	}
+
+     @media only screen and (max-width: 370px)
+      {
+	    .brand{width: 45px;height: 45px;} 
+	    #tec{font-size: 20px;line-height: 30px;}
+	    #address{font-size: 10px;margin-top: -7px;} 
+    }
+     @media only screen and (max-width: 300px)
+    {
+	    .brand{width: 34px;height: 34px;} 
+	    #tec{font-size: 14px;line-height: 27px;}
+	    #address{font-size: 8px;margin-top: -7px;line-height: 10px;margin-top: -240px;}
+	}
+
+	/* Filter student through year or dept block */
+
+	.row{
+		border-radius: 10px;
+		box-shadow: 2px 2px 6px 5px lightgray;
+		transition: .4s; 
+	}
+	.row:hover{
+		border-bottom:3px inset red;
+		border-top: 3px inset lightgreen;
+	}
+	  	button[type='submit']
+	   {
+	   	width: 100%;
+	   	border-radius: 100px;
+	   	background-image: linear-gradient(to left bottom,#ff00ff,#0099ff);
+	   	transition: 1s;
+	   
+	   }
+	 button[type='submit']:hover
+	   {
+	   		background-image: linear-gradient(to left bottom,#0099ff,#ff00ff);
+	   		transition: 1s;
+	   }
+	   input[type='text'],input[type='password']
+	   {
+	   	border: none;
+	   	outline: none;
+	   	border-bottom: 1px solid lightgray;
+	   	background: transparent;
+	   	width: 100%;
+	   	text-decoration: none;
+	   }
+	   .modal-content{border: none;border-radius: 10px;}
+      .modal-content:before{content: '';position: absolute;top: -2px;bottom: -2px;left: -2px;right: -2px;z-index: -1;}
+      .modal-content:after{content: '';position: absolute;top: -2px;bottom: -2px;left: -2px;right: -2px;z-index: -2;filter: blur(20px);}
+      .modal-content:before,.modal-content:after{border-radius: 10px;background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4)}
+
+
+      	/*  Footer  */
+
+      	#footer{
+      		width: 100%;
+      		height: auto;
+      		background-color: lightgreen;
+      	}
+
+
+    #adminlogin{
+          width: 140px;
+          height: 40px;
+          line-height: 40px;
+          transform: translate(-120%, -10%);
+          position: fixed;
+          top: 70%;
+          z-index: 10;
+          border-radius: 30px;
+          border: none;
+          background-color: skyblue;
+          color: white;
+          font-size: 22px;
+          animation-name: studentlogin;
+          animation-iteration-count: infinite;
+          animation-duration: 4s;
+          outline: none;
+        }
+
+
+    #hodlogin{
+          width: 140px;
+          height: 40px;
+          line-height: 40px;
+          transform: translate(-120%, -10%);
+          position: fixed;
+          top: 60%;
+          z-index: 10;
+          border-radius: 30px;
+          border: none;
+          background-color: skyblue;
+          color: white;
+          font-size: 22px;
+          animation-name: studentlogin;
+          animation-iteration-count: infinite;
+          animation-duration: 4s;
+          outline: none;
+        }
+
+      	/* Student Login */
+
+      	#studentLogin{
+      		width: 140px;
+      		height: 40px;
+      		line-height: 40px;
+      		transform: translate(-120%, -10%);
+      		position: fixed;
+      		top: 80%;
+  			z-index: 10;
+  			border-radius: 30px;
+  			border: none;
+  			background-color: skyblue;
+  			color: white;
+  			font-size: 22px;
+  			animation-name: studentlogin;
+  			animation-iteration-count: infinite;
+  			animation-duration: 4s;
+  			outline: none;
+      	}
+      	@keyframes studentlogin{
+      		0%{
+      			background-color: blue;
+      		}
+      		25%{
+      			background-color: red;
+      		}
+      		50%{
+      			background-color: green;
+      		}
+      		75%{
+      			background-color: blue;
+      		}
+      		100%{
+      			background-color: orange;
+      		}
+      	}
+
+#addMarks{
+      		width: 170px;
+      		height: 50px;
+      		line-height: 50px;
+  			border-radius: 30px;
+  			border: none;
+  			background-color: skyblue;
+  			color: white;
+  			font-size: 22px;
+  			outline: none;
+      	}
